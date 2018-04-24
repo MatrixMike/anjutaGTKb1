@@ -85,7 +85,6 @@ create_window (void)
 
   g_object_unref (builder);
 
-
   return window;
 }
 
@@ -93,8 +92,6 @@ int
 main (int argc, char *argv[])
 {
   GtkWidget *window;
-
-
 
 #ifdef ENABLE_NLS
 
@@ -110,9 +107,6 @@ main (int argc, char *argv[])
 
   gtk_main ();
 
-
   g_free (priv);
-
-
   return 0;
 }
