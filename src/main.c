@@ -79,7 +79,7 @@ create_window (void)
       g_critical ("Widget \"%s\" is missing in file %s.",
 		  TOP_WINDOW, UI_FILE);
     }
-  gtk_window_set_title (GTK_WINDOW (window), "new title");  //
+  gtk_window_set_title (GTK_WINDOW (window), "New title");  //
   priv = g_malloc (sizeof (struct _Private));
   /* ANJUTA: Widgets initialization for gtk_foobar.ui - DO NOT REMOVE */
 
